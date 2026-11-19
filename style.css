@@ -5,6 +5,9 @@
 
 html, body{
     height: 100%;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
 }
 
 @font-face {
@@ -16,9 +19,13 @@ html, body{
   font-family: Norse;
 }
 
+img {
+    height: 100px;
+}
+
 .wrapper {
     display: flex;
-    width: 100%;
+    width: 1200px;
     height: 100%;
 }
 
@@ -30,6 +37,30 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+}
+
+.logo {
+    font-size:80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 50%);
+    margin: 20% 0 98% 0;
+}
+
+.photo-credit {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.photo-credit a {
+    color: white;
+    padding: 0 5px;
 }
 
 #right-column {
