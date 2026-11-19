@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html, body{
+    height: 100%;
+}
+
 @font-face {
   font-family: Norse; 
   src: url(Norsebold.otf); 
@@ -15,12 +19,17 @@
 .wrapper {
     display: flex;
     width: 100%;
+    height: 100%;
 }
 
 #left-column {
-    width: 30%;
+    width: 45%;
     display: flex;
     flex-flow: column nowrap;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 #right-column {
