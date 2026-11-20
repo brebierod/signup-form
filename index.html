@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,21 +13,45 @@
         <div id="left-column">
             <div class="logo"><img src="img/odin-lined.png" alt="odin logo">ODIN</div>
             <div class="photo-credit">Photo by <a
-                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank"
-                    rel="nofollow">Halie West</a></div>
+                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+                    target="_blank" rel="nofollow">Halie West</a></div>
         </div>
         <div id="right-column">
             <div id="message">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize
                     your deepest dreams. <br>Sign up <em>now</em> to get started.<br><br>You know you want to.</p>
             </div>
             <div id="form">
                 <h2>Let's do this!</h2>
-                <form action="/action.php" method="post">First Name: <input name="first-name" type="text"> Last Name:<input
-                        name="last-name">Email:<input name="email" type="email">Phone Number:<input name="phone" type="number" min="10" max="10">Password:<input name="password" type="password">Password:<input name="password2" type="password"><input type="submit" value="Submit" >
+                <form action="/action.php" method="post">
+                    <div class="inputs">
+                        <input name="first-name" type="text" class="form-input" id="first-name"
+                            placeholder="First Name">
+                            <label for="first-name" class="form-label">First
+                            Name:</label>
+                            <input name="last-name" class="form-input" placeholder="Last Name">
+                            <label for="last-name" class="form-label">Last
+                            Name:</label>
+                        <input name="email" type="email" class="form-input" placeholder="youremail@example.com">
+                        <label for="email" class="form-input">Email:</label>
+                            <input name="phone" type="text"  class="form-input" min="10" max="10" placeholder="555-123-4567">
+                            <label
+                            for="phone" class="form-label">
+                            Phone Number:</label>
+                            <input name="password1" type="password">
+                            <label for="password1" class="form-label">Password:</label>
+                            <input name="password2" type="password">
+                            <label for="password2" class="form-label">Password:</label>
+                            <br>
+                            <input
+                            type="submit" value="Submit" class="form-input">
+                    </div>
                 </form>
             </div>
-            <div id="submit"><button>Create Account</button><p>Already have an account? <a href="#">Log in.</a></p></div>
+            <div id="submit"><button>Create Account</button>
+                <p>Already have an account? <a href="#">Log in.</a></p>
+            </div>
         </div>
     </div>
 </body>
