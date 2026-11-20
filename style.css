@@ -91,7 +91,7 @@ img {
 }
 
 form {
-    padding: 0px 40px 36px 40px;
+    padding: 0px 40px 0px 40px;
     width: 100%;
 }
 
@@ -126,7 +126,7 @@ input, .form-label {
 }
 
 input {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     outline: none;
     border: 1px solid rgb(177, 177, 177);
     height: 24px;
