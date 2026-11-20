@@ -92,12 +92,35 @@ img {
 
 form {
     padding: 0px 40px 36px 40px;
+    width: 100%;
+}
+
+#form {
+    width: 100%;
 }
 
 #form h2 {
     font-size: 20px;
     padding: 20px 20px;
     margin-left: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.input-col {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 45%;
+}
+
+input, .form-label {
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 #submit {

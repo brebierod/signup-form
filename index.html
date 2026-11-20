@@ -26,27 +26,29 @@
                 <h2>Let's do this!</h2>
                 <form action="/action.php" method="post">
                     <div class="inputs">
-                        <input name="first-name" type="text" class="form-input" id="first-name"
-                            placeholder="First Name">
+                        <div class="input-col">
                             <label for="first-name" class="form-label">First
-                            Name:</label>
-                            <input name="last-name" class="form-input" placeholder="Last Name">
-                            <label for="last-name" class="form-label">Last
-                            Name:</label>
-                        <input name="email" type="email" class="form-input" placeholder="youremail@example.com">
-                        <label for="email" class="form-input">Email:</label>
-                            <input name="phone" type="text"  class="form-input" min="10" max="10" placeholder="555-123-4567">
-                            <label
-                            for="phone" class="form-label">
-                            Phone Number:</label>
-                            <input name="password1" type="password">
+                                Name:</label>
+                            <input name="first-name" type="text" class="form-input" id="first-name"
+                                placeholder="First Name">
+                            <label for="email" class="form-label">Email:</label>
+                            <input name="email" type="email" class="form-input" placeholder="youremail@example.com">
                             <label for="password1" class="form-label">Password:</label>
+                            <input name="password1" type="password">
+                        </div>
+                        <div class="input-col">
+                            <label for="last-name" class="form-label">Last
+                                Name:</label>
+                            <input name="last-name" class="form-input" placeholder="Last Name">
+                            <label for="phone" class="form-label">Phone Number:</label>
+                            <input name="phone" type="tel" class="form-input" min="10" max="10"
+                                placeholder="555-123-4567">
+                            <label for="password2" class="form-label">Re-EnterPassword:</label>
                             <input name="password2" type="password">
-                            <label for="password2" class="form-label">Password:</label>
-                            <br>
-                            <input
-                            type="submit" value="Submit" class="form-input">
+                        </div>
                     </div>
+                    <br>
+                        <input type="submit" value="Submit" class="form-input">
                 </form>
             </div>
             <div id="submit"><button>Create Account</button>
