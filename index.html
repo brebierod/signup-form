@@ -24,7 +24,7 @@
             </div>
             <div id="form">
                 <h2>Let's do this!</h2>
-                <form action=""method="post">
+                <form action="" method="post" id="form1">
                     <div class="inputs">
                         <div class="input-col">
                             <label for="first-name" class="form-label">First
@@ -42,14 +42,16 @@
                             <label for="phone" class="form-label">Phone Number:</label>
                             <input name="phone" type="tel" class="form-input" min="10" max="10"
                                 placeholder="555-123-4567">
-                            <label for="password2" class="form-label">Re-EnterPassword:</label>
-                            <input name="password2" type="password">
+                            <label for="password2" class="form-label">Re-Enter Password:</label>
+                            <input name="password2" type="password"
+                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$"
+                                title="Minimum of 7 characters. Should have at least one special character and one number and one UpperCase Letter.">
                         </div>
                     </div>
                     <br>
                 </form>
             </div>
-            <div id="submit"><button>Create Account</button>
+            <div id="submit"><button type="submit" form="form1" value="submit">Create Account</button>
                 <p>Already have an account? <a href="#">Log in.</a></p>
             </div>
         </div>
