@@ -68,7 +68,7 @@ img {
     width: 70%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: rgb(245, 245, 245);
     height: 100%;
@@ -81,7 +81,7 @@ img {
     align-items: center;
     font-size: 20px;
     font-weight: bold;
-    padding: 36px;
+    padding: 0 36px 60px 36px;
 }
 
 #form {
