@@ -76,10 +76,26 @@ img {
 }
 
 #message {
-    height: 250px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+}
+
+#form {
+    background-color: white;
+    box-shadow: 2px 6px 15px 5px rgba(0,0,0,0.2);
+    margin: 0 -36px;
+}
+
+form {
+    padding: 0px 40px 36px 40px;
+}
+
+#form h2 {
+    font-size: 20px;
+    padding: 20px 20px;
+    margin-left: 20px;
 }
