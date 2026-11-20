@@ -70,9 +70,8 @@ img {
     flex-flow: column nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(245, 245, 245);
     height: 100%;
-    padding: 36px;
 }
 
 #message {
@@ -82,6 +81,7 @@ img {
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+    padding: 36px;
 }
 
 #form {
@@ -123,6 +123,10 @@ input, .form-label {
     font-size: 12px;
 }
 
+input {
+    margin-bottom: 12px;;
+}
+
 #submit {
     align-self: flex-start;
 }
@@ -135,6 +139,10 @@ button {
     font-size: 16px;
     font-weight: bold;
     color: white;
+}
+
+#submit {
+    padding: 36px;
 }
 
 #submit p {
