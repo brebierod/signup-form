@@ -33,7 +33,9 @@
                             <label for="email" class="form-label">Email:</label>
                             <input name="email" type="email" class="form-input">
                             <label for="password1" class="form-label">Password:</label>
-                            <input name="password1" type="password">
+                            <input name="password1" type="password" id="password1"
+                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$"
+                                title="Minimum of 7 characters. Should have at least one special character and one number and one UpperCase Letter.">
                         </div>
                         <div class="input-col">
                             <label for="last-name" class="form-label">Last
@@ -43,19 +45,18 @@
                             <input name="phone" type="tel" class="form-input" min="10" max="10"
                                 placeholder="555-123-4567">
                             <label for="password2" class="form-label">Re-Enter Password:</label>
-                            <input name="password2" type="password"
-                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$"
-                                title="Minimum of 7 characters. Should have at least one special character and one number and one UpperCase Letter.">
+                            <input name="password2" type="password" id="password2"
+                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$">
                         </div>
                     </div>
                     <br>
                 </form>
             </div>
-            <div id="submit"><button type="submit" form="form1" value="submit">Create Account</button>
+            <div id="submit"><button type="submit" form="form1" value="submit" id="submitBtn">Create Account</button>
                 <p>Already have an account? <a href="#">Log in.</a></p>
             </div>
         </div>
     </div>
 </body>
-
+<script src="script.js"></script>
 </html>
