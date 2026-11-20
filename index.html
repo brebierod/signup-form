@@ -46,13 +46,13 @@
                                 placeholder="555-123-4567">
                             <label for="password2" class="form-label">Re-Enter Password:</label>
                             <input name="password2" type="password" id="password2"
-                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$">
+                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$" required>
                         </div>
                     </div>
                     <br>
                 </form>
             </div>
-            <div id="submit"><button type="submit" form="form1" value="submit" id="submitBtn">Create Account</button>
+            <div id="submit"><button type="submit" form="form1" value="submit" id="submitBtn" required>Create Account</button>
                 <p>Already have an account? <a href="#">Log in.</a></p>
             </div>
         </div>
