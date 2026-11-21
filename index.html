@@ -26,37 +26,47 @@
                 <h2>Let's do this!</h2>
                 <form action="" method="post" id="form1">
                     <div class="inputs">
-                        <div class="input-col">
+                        <div class="field">
                             <label for="first-name" class="form-label">First
                                 Name:</label>
                             <input name="first-name" type="text" class="form-input" id="first-name">
+                        </div>
+                        <div class="field">
+                            <label for="last-name" class="form-label">Last
+                                Name:</label>
+                            <input name="last-name" class="form-input">
+                        </div>
+                        <div class="field">
                             <label for="email" class="form-label">Email:</label>
                             <input name="email" type="email" class="form-input">
+                        </div>
+                        <div class="field">
+                            <label for="phone" class="form-label">Phone Number:</label>
+                            <input name="phone" type="tel" class="form-input" min="10" max="10" placeholder="555-123-4567">
+                        </div>
+                        <div class="field">
                             <label for="password1" class="form-label">Password:</label>
                             <input name="password1" type="password" id="password1"
                                 pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$"
                                 title="Minimum of 7 characters. Should have at least one special character and one number and one UpperCase Letter.">
                         </div>
-                        <div class="input-col">
-                            <label for="last-name" class="form-label">Last
-                                Name:</label>
-                            <input name="last-name" class="form-input">
-                            <label for="phone" class="form-label">Phone Number:</label>
-                            <input name="phone" type="tel" class="form-input" min="10" max="10"
-                                placeholder="555-123-4567">
-                            <label for="password2" class="form-label">Re-Enter Password:</label>
+                        <div class="field">
+                            <label for="password2" class="form-label">Confirm Password:</label>
                             <input name="password2" type="password" id="password2"
                                 pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$" required>
                         </div>
                     </div>
-                    <br>
-                </form>
             </div>
-            <div id="submit"><button type="submit" form="form1" value="submit" id="submitBtn" required>Create Account</button>
+            <br>
+            </form>
+            <div id="submit"><button type="submit" form="form1" value="submit" id="submitBtn" required>Create
+                    Account</button>
                 <p>Already have an account? <a href="#">Log in.</a></p>
             </div>
         </div>
     </div>
+    </div>
 </body>
 <script src="script.js"></script>
+
 </html>
