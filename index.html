@@ -29,31 +29,31 @@
                         <div class="field">
                             <label for="first-name" class="form-label">First
                                 Name:</label>
-                            <input name="first-name" type="text" class="form-input" id="first-name">
+                            <input name="first-name" type="text" class="form-input" id="first-name" required>
                         </div>
                         <div class="field">
                             <label for="last-name" class="form-label">Last
                                 Name:</label>
-                            <input name="last-name" class="form-input">
+                            <input name="last-name" class="form-input" required>
                         </div>
                         <div class="field">
                             <label for="email" class="form-label">Email:</label>
-                            <input name="email" type="email" class="form-input">
+                            <input name="email" type="email" class="form-input" required>
                         </div>
                         <div class="field">
                             <label for="phone" class="form-label">Phone Number:</label>
-                            <input name="phone" type="tel" class="form-input" min="10" max="10" placeholder="555-123-4567">
+                            <input name="phone" type="tel" class="form-input" min="10" max="10" placeholder="555-123-4567" required>
                         </div>
                         <div class="field">
                             <label for="password1" class="form-label">Password:</label>
                             <input name="password1" type="password" id="password1"
-                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$"
-                                title="Minimum of 7 characters. Should have at least one special character and one number and one UpperCase Letter.">
+                                pattern=".{8,}"
+                                title="Minimum of 7 characters. Should have at least one special character and one number and one UpperCase Letter." required>
                         </div>
                         <div class="field">
                             <label for="password2" class="form-label">Confirm Password:</label>
                             <input name="password2" type="password" id="password2"
-                                pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$" required>
+                                pattern=".{8,}" required>
                         </div>
                     </div>
             </div>
